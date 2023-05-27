@@ -1,0 +1,20 @@
+
+
+
+
+<mat-drawer-container class="example-container home-bg" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+    <app-sidebar (onNavigate)="toggleSidebar(drawer)" ></app-sidebar>
+  </mat-drawer>
+
+  <div class="text-white">
+    <app-header  (slideNav)="toggleSidebar(drawer)"></app-header>
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+
+    <!-- for blue background when nav open -->
+    <div [class.home-blur] = "isOpen"></div>
+  </div>
+
+  <!-- <app-loader></app-loader> -->
+</mat-drawer-container>

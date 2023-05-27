@@ -1,0 +1,53 @@
+
+.outer-white{
+    background: #f6f6f6;
+    background: -moz-linear-gradient(top, #f6f6f6 0%, #dadada 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f6f6f6), color-stop(100%, #dadada));
+    background: -webkit-linear-gradient(top, #f6f6f6 0%, #dadada 100%);
+    background: -o-linear-gradient(top, #f6f6f6 0%, #dadada 100%);
+    background: -ms-linear-gradient(top, #f6f6f6 0%, #dadada 100%);
+    background: linear-gradient(to bottom, #f6f6f6 0%, #dadada 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f6f6f6", endColorstr="#dadada",GradientType=0 );
+    border: 1px solid #d8d8d8;
+    border-bottom: 1px solid #b4b4b4;
+    opacity: 0.9;
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.dot {
+display: inline-block;
+width: 10px;
+height: 10px;
+border-radius: 50%;
+margin: 0 4px 0 0;
+}
+
+.dot-white-1 {
+    background: #FF6057;
+    border: 1px solid #E14640;
+}
+.dot-white-2 {
+    background: #FFBD2E;
+    border: 1px solid #DFA123;
+}
+.dot-white-3 {
+    background: #27C93F;
+    border: 1px solid #1DAD2B;
+}
+
+.card-body-style{
+    background-color: rgb(42 42 42 / 84%);
+    padding: 35px;
+    border-radius: 0px 0px 7px 7px;
+    opacity: 0.85;
+}
+
+.company-name{
+    font-weight: 500;
+}
+
+.mb-100{
+    margin-bottom:100px
+}

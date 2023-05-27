@@ -1,0 +1,9 @@
+.home-caption{
+    position: absolute;
+    width: 450px;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    top:35%;
+}

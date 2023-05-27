@@ -1,0 +1,62 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="outer">
+                        <div class="dot dot-dark"></div>
+                        <div class="dot dot-dark"></div>
+                        <div class="dot dot-dark"></div>
+                    </div>
+
+                    <div class="card-body-style">
+                        <h2>About Me</h2>
+                        <p>
+                            I work as a Front-End Developer in India. I'm passionate with UI effects, animations, and
+                            developing simple to use dynamic user experiences.
+                        </p>
+                        <p>
+                            Person who is well-organized, a problem solver, and an independent worker with a keen eye
+                            for detail.
+                        </p>
+                        <p>
+                            I'm interested in the full frontend spectrum and enjoy working on big projects with
+                            like-minded individuals.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-12 my-5">
+                    <div class="outer-grey">
+                        <div class="dot dot-grey"></div>
+                        <div class="dot dot-grey"></div>
+                        <div class="dot dot-grey"></div>
+                    </div>
+
+                    <div class="card-body-style">
+                        <h2>Start a project</h2>
+                        <p>Interested in working together? We should queue up a time to chat. I’ll buy the coffee.</p>
+                        <button mat-raised-button color="primary">Lets Do This</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="outer-white">
+                <div class="dot dot-white-1"></div>
+                <div class="dot dot-white-2"></div>
+                <div class="dot dot-white-3"></div>
+            </div>
+
+            <div class="card-body-style skill-sets">
+                <div *ngFor="let skill of skills" matTooltip="You can move">
+                    <div [style.background]="skill.color" class="skill" cdkDragBoundary=".skill-sets" cdkDrag
+                        [cdkDragFreeDragPosition]="skill.position">
+                        {{skill.name}}
+                    </div>
+                    <br />
+                </div>
+            </div>
+        </div>
+    </div>

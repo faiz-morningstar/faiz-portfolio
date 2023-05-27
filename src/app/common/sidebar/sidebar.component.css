@@ -1,0 +1,21 @@
+.logo-image{
+    width:90px;
+}
+
+.menu-items{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+ul.menu-items{
+    margin-top: 65px;
+}
+ul.menu-items li {
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+ul.menu-items li svg{
+    width:35px;
+    height: 35px;
+    fill:#fff;
+}

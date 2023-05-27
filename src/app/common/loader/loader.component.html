@@ -1,0 +1,13 @@
+<span  [class.d-none] = "!eyeLoading" >
+ 
+    <img class="img-fluid loading-image colored" src="../../../assets/loader/loader.gif">
+
+</span>
+<div class="loader">
+    <div class="slider" [ngClass]="isloading? 'top-slide-down' : 'top-slide-up'"  >
+    </div>
+    <div class="slider" [ngClass]="isloading? 'bottom-slide-up' : 'bottom-slide-down'" >
+    </div>
+</div>
+
+
