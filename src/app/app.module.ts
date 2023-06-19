@@ -8,17 +8,17 @@ import { AboutUsComponent } from './front-panel/about-us/about-us.component';
 import { SidebarComponent } from './common/sidebar/sidebar.component';
 import { FooterComponent } from './common/footer/footer.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
-import {MatButtonModule} from '@angular/material/button';
+import {MatLegacyButtonModule as MatButtonModule} from '@angular/material/legacy-button';
 import { HeaderComponent } from './common/header/header.component';
 import { PageNotFoundComponent } from './common/page-not-found/page-not-found.component';
 import { LoaderComponent } from './common/loader/loader.component';
 import { WorksComponent } from './front-panel/works/works.component';
 import { ContactComponent } from './front-panel/contact/contact.component';
 import {DragDropModule} from '@angular/cdk/drag-drop';
-import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatLegacyTooltipModule as MatTooltipModule} from '@angular/material/legacy-tooltip';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatInputModule} from '@angular/material/input';
+import {MatLegacyFormFieldModule as MatFormFieldModule} from '@angular/material/legacy-form-field';
+import {MatLegacyInputModule as MatInputModule} from '@angular/material/legacy-input';
 
 import { NgxCaptchaModule } from 'ngx-captcha';
 @NgModule({
