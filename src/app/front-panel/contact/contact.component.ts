@@ -37,14 +37,12 @@ export class ContactComponent implements OnInit {
 
   moveLeft:any = 0
   mouseEnter(){
-    console.log("entered",this.moveButton)
     const randomPosition = Math.random() * (610 - 0) + (0);
     this.moveLeft = randomPosition
   }
 
   submitContact(){
-    console.log(this.contactForm.isvalid)
+    console.log(this.contactForm.valid)
   }
-
 
 }
