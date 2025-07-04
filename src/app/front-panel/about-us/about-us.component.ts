@@ -21,55 +21,55 @@ export class AboutUsComponent implements OnInit {
       position:{x: 0, y: 0}
     },
     {
-      id:3,
+      id:2,
       name:"JavaScript/TypeScript",
       color:"",
       position:{x: 100, y: 0}
     },
     {
-      id:4,
+      id:3,
       name:"Bootstrap",
       color:"",
       position:{x: 0, y: 0}
     },
     {
-      id:5,
+      id:4,
       name:"Material UI",
       color:"",
       position:{x: 250, y:0}
     },
     {
-      id:6,
+      id:5,
       name:"Angular",
       color:"",
       position:{x: 0, y: 0}
     },
     {
-      id:7,
+      id:6,
       name:"ReactJS",
       color:"",
       position:{x: 0, y: 0}
     },
     {
-      id:8,
+      id:7,
       name:"SOAP API",
       color:"",
       position:{x: 0, y: 0}
     },
     {
-      id:9,
+      id:8,
       name:"NodeJS",
       color:"",
       position:{x: 0, y: 0}
     },
     {
-      id:10,
+      id:9,
       name:"MongoDB",
       color:"",
       position:{x: 0, y: 0}
     },
     {
-      id:9,
+      id:10,
       name:"MySQL",
       color:"",
       position:{x: 0, y: 0}
