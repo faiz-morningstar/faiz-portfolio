@@ -21,16 +21,10 @@ export class AboutUsComponent implements OnInit {
       position:{x: 0, y: 0}
     },
     {
-      id:2,
-      name:"JavaScript",
-      color:"",
-      position:{x: 0, y: 0}
-    },
-    {
       id:3,
-      name:"TypeScript",
+      name:"JavaScript/TypeScript",
       color:"",
-      position:{x: 0, y: 0}
+      position:{x: 100, y: 0}
     },
     {
       id:4,
@@ -68,6 +62,18 @@ export class AboutUsComponent implements OnInit {
       color:"",
       position:{x: 0, y: 0}
     },
+    {
+      id:10,
+      name:"MongoDB",
+      color:"",
+      position:{x: 0, y: 0}
+    },
+    {
+      id:9,
+      name:"MySQL",
+      color:"",
+      position:{x: 0, y: 0}
+    },
   ]
 
 
@@ -82,6 +88,7 @@ export class AboutUsComponent implements OnInit {
     "#0277bd",
     "#4e342e",
     "#ff4444",
+    "#0A400C",
   ]
 
   constructor(private homeSerivce:HomeService) { 
